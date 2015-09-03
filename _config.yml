@@ -1,15 +1,16 @@
 name: WhaTap Tech Blog
 description: 와탭 기술 블로그
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "WhaTap Tech Blog입니다."
 
 markdown: redcarpet
 highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://tech.whatap.io'
 google_analytics: 'UA-XXXXXXXX-X'
+permalink: pretty
 
 # Details for the RSS feed generator
-url:            'blog url'
+url:            'http://tech.whatap.io'
 author:         'Your Name'
