@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  리눅스 명령어를 이용한 시스템 모니터링 하기
+title:  "리눅스 명령어를 이용한 시스템 모니터링 하기"
 date:   2015-09-03 17:05:00
 categories: linux system monitoring!
 ---
