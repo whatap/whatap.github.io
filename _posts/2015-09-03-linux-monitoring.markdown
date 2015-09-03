@@ -22,16 +22,15 @@ Linux . localhost . 3.13.0-24-generic . #47-Ubuntu SMP Fri May 2 23:30:00 UTC 20
 
 참고>>  
 *uname --help*  
->
-  -a, --all  
-  -s, --kernel-name        print the kernel name  
-  -n, --nodename           print the network node hostname  
-  -r, --kernel-release     print the kernel release  
-  -v, -kernel-version 커널 버전 출력  
-  -m, --machine 머신 하드웨어 이름 출력  
-  -p, --processor 프로세서 종류 또는 "unknown" 출력  
-  -i,- -hardware-platform 하드웨어 플랫폼 또는 "unknown" 출력  
-  -o, --operating-system 운영 체제 출력  
+    -a, --all  
+    -s, --kernel-name        print the kernel name  
+    -n, --nodename           print the network node hostname  
+    -r, --kernel-release     print the kernel release  
+    -v, -kernel-version 커널 버전 출력  
+    -m, --machine 머신 하드웨어 이름 출력  
+    -p, --processor 프로세서 종류 또는 "unknown" 출력  
+    -i,- -hardware-platform 하드웨어 플랫폼 또는 "unknown" 출력  
+    -o, --operating-system 운영 체제 출력  
 
 
 
