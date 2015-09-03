@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "리눅스 명령어를 이용한 시스템 모니터링 하기"
+title:  리눅스 명령어를 이용한 시스템 모니터링 하기
 date:   2015-09-03 17:05:00
 categories: linux system monitoring!
 ---
@@ -9,7 +9,7 @@ categories: linux system monitoring!
 리눅스 환경에서 이런 리소스들을 확인 할 수 있는 다양한 명령어들을 지원하고 있는데요.  
 각각의 명령어들을 통해 시스템을 모니터링 하는 방법에 대해 알아봅시다.  
 
-**[uname]**  
+###[uname]
 시스템과 커널의 정보를 확인할 수 있습니다.   
 저는 모든 정보를 확인하기 위하여 -a 옵션을 사용하였습니다.
 
