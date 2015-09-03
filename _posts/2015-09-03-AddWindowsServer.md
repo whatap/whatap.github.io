@@ -4,8 +4,6 @@ title:  "Windows 서버 등록하는 법"
 date:   2015-9-3 17:07:00
 categories: Thriller Comedy Horror
 ---
-
-# Windows 서버 등록하는 방법
 안녕하세요 Whatp 에 윈도우 서버를 추가하는 방법에 대해서 알아 보도록 하겠습니다.
 윈도우에서 모티터링을 추가하려면 Windows 용 Agent 를 설치 해야 합니다.
 WhaTap Agent는 모니터링 하고자 대상 서버의 데이터를 수집하는 Agent로 서버의 상태에 대해서만 수집을 하고 다른 정보는 수집하지 않으니 안심하셔도 됩니다.
