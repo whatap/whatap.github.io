@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows 서버 등록하는 법"
-date:   2015-9-3 17:07:00
+date:   2015-09-03 17:07:00
 author: 김광명
 ---
 
