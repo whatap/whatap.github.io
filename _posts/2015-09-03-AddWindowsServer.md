@@ -82,12 +82,12 @@ WhaTap 에서 사용하는 포트는 80 와 10051 포트를 사용합니다.
 
 ![alt text](/assets/images/AddServeronWindows_13.jpg)
 
-### 라이센스 키 파라미터 입력
+### 라이선스 키 파라미터 입력
 만약 여러대의 서버에 동일한 라이센스키를 가지고 설치를 하고 싶을경우 파라미터 입력이 가능합니다.
 
 {% highlight bash %}
 
-whatap.exe /SILENT /SERIAL=라이센스키
+whatap.exe /SILENT /SERIAL=라이선스키값
 
 {% endhighlight %}
 
