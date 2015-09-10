@@ -45,7 +45,7 @@ Policy Document
 </pre>
 
 #### 생성한 Policy 를 붙일 Role 생성 
-#####Roles -> 상단의 Create New Role -> Role Name 입력 -> 아무거나 선택 -> 위에서 생성한 policy 선택
+Roles -> 상단의 Create New Role -> Role Name 입력 -> 아무거나 선택 -> 위에서 생성한 policy 선택
 
 #### EC2 서비스를 접속하여 Amazon Linux VM을 생성
 ##### https://console.aws.amazon.com/ec2/v2/home
