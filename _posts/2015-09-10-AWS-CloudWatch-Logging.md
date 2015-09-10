@@ -6,7 +6,7 @@ author: 남형석
 ---
 
 아마존 EC2에서 소규모 혹은 대규모로 웹 서비스를 운영하게되면 필연적으로 다량의 웹 로그가 발생하게 됩니다. 
-이 로그에는 해당 서비스의 성능에 관한 가장 정확안 자료가 존재하지만 이것을 분석하는데는 생각보다 많은 시간과 비용이 발생합니다. 
+이 로그에는 해당 서비스의 성능에 관한 가장 정확한 자료가 존재하지만 이것을 분석하는데는 생각보다 많은 시간과 비용이 발생합니다. 
 
 특히 대량으로 발생하는 데이터를 실시간으로 분석하려면 scale-out 가능한 로그 분석 툴을 갖추어야 되는데요. 
 컨텐츠나 기능개발에 바쁜 중소규모 개발팀에서 감당하기에는 많은 어려움이 있습니다. 
@@ -99,6 +99,9 @@ service awslogs start
 #### 아마존 클라우드 워치에 접속하여 로그가 수집되는지 확인합니다.
 ##### https://console.aws.amazon.com/cloudwatch/home
 Logs -> 목록에서 4번 /etc/awslogs/awslogs.conf 에서 입력한 로그 그룹 이름을 클릭 -> 서버 이름 클릭 -> 수집된 로그 확인
+
+![alt text](/assets/images/2015-09-10-AWS-CloudWatch-LogViewer.png)
+
 #### 시간당 접속 카운트 Metric 입력
 Logs -> 로그 그룹 이름 앞으 체크박스 선택 -> Create Metric Filter -> Filter Pattern 을 비워두고 Assign Metric -> 아래와 같이 폼 입력 -> Create Filter
 <pre>
@@ -106,7 +109,7 @@ Filter Name : 이름을 입력
 Metric Name : EventCount 
 </pre>
 #### 시간당 다운로드 카운트 Metric 입력
-Logs -> 로그 그룹 이름 앞으 체크박스 선택 -> Create Metric Filter -> Filter Pattern 을 [ip, id, user, timestamp, request, status_code, size] -> Assign Metric -> 아래와 같이 폼 입력 -> Create Filter
+Logs -> 로그 그룹 이름 앞으 체크박스 선택 -> Create Metric Filter -> Filter Pattern 을 [ip, id, user, timestamp, request, status_code, size, referer, agent ] -> Assign Metric -> 아래와 같이 폼 입력 -> Create Filter
 <pre>
 Filter Name : 이름을 입력
 Metric Name : BytesTransferred
@@ -115,8 +118,13 @@ metric Value : $size
 ### 6. 로그 파일에서 생성된 챠트 확인
 #### 시간당 접속수 확인
 Logs -> 2 filter -> LogMetrics -> EventCount 선택 -> 챠트확인
+
+![alt text](/assets/images/2015-09-10-AWS-CloudWatch-EventCount.png)
+
 #### 시간당 다운로드 트래픽 확인
 Logs -> 2 filter -> LogMetrics -> BytesTransferred 선택 -> 챠트확인
+
+![alt text](/assets/images/2015-09-10-AWS-CloudWatch-BytesTransferred.png)
 
 ### 마치면서 
 이렇게 하면 전문 툴을 도입하지 않고 간단하게 모니터링을 할 수 있습니다.
