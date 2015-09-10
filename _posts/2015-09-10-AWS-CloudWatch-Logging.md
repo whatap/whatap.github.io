@@ -53,7 +53,7 @@ EC2 Dashboard -> 중단의 Launch Instance -> Amazon Linux AMI 선택 -> Next: C
 
 
 ### 3. 워드프레스 설치
-접속하여 워드프레스를 설치합니다.
+생성한 VM에 접속하여 워드프레스를 설치합니다.
 
 <pre>
 sudo yum -y install httpd gd php-gd php-mysql mysql-server
@@ -77,7 +77,6 @@ http://{public ip of vm}/wordpress
 ### 4. Cloudwatch Log Agent 설치 및 실행
 #### 이제 Cloudwatch Log Agent를 설치할 차례입니다. 
 <pre>
-aws configure
 sudo yum install -y awslogs
 vim /etc/awslogs/awscli.conf
 #region = 에 vm을 생성한 region과 같은 region을 입력 및 저장 합니다. 이것을 생략하면 N.Virginia 에 로그가 업로드 됩니다.
