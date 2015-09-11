@@ -273,7 +273,7 @@ jekyll 을 실행해보면 아래와같은 설명이 나옵니다.
 ![jelky_install_12.jpg](/assets/images/jelky_install_12.jpg)
 
 
-설치완료후 다시 jekyll server 를 실행하면 정상적으로 실행이 될것입니다.
+설치완료후 다시 jekyll serve 를 실행하면 정상적으로 실행이 될것입니다.
 
 이제 웹브라우져를 열어서 127.0.0.1:4000 에 접속하시면 됩니다.
 
@@ -281,7 +281,46 @@ jekyll 을 실행해보면 아래와같은 설명이 나옵니다.
 
 ![jelky_install_13.jpg](/assets/images/jelky_install_13.jpg)
 
-위 그림과 같으면 사용못하겠죠? 
+**jekyll serve 오류**
+
+만약 jekyll serve 실행 할때 아래와 같은 에러메세지를 보여주면
+
+hittimes 를 재설치 하시면 됩니다.
+<pre>
+C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require': ca
+nnot load such file -- hitimes/hitimes (LoadError)
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in
+`require'
+        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/hitimes-1.2.2-x86-mingw32/lib/hi
+times.rb:37:in `rescue in <top (required)>'
+        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/hitimes-1.2.2-x86-mingw32/lib/hi
+times.rb:32:in `<top (required)>'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in
+ `require'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in
+ `rescue in require'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:39:in
+`require'
+        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/timers-4.0.4/lib/timers/group.rb
+:4:in `<top (required)>'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in
+`require'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in
+`require'
+        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/timers-4.0.4/lib/timers.rb:4:in
+`<top (required)>'
+        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:
+</pre>
+
+gem 을 이용 hitimes 삭제 및 설치
+
+>gem uni hitimes
+
+> **Remove ALL versions**
+
+>gem ins hitimes -v 1.2.1 --platform ruby
+
+
 
 ---
 
