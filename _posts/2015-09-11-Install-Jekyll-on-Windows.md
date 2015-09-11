@@ -89,7 +89,9 @@ Jekyll 은 루비 기반으로 돌아갑니다. 그래서 Ruby 가 설치된 장
 윈도우 CMD 창에서 아래 명령으로 초기화와 Ruby 와 Binding 을 해줍니다.
 
 >cd C:\RubyDevkit
+
 >ruby dk.rb init
+
 >ruby dk.rb install
 
 아래와 비슷한 문구들이 나오면 정상설치 된것입니다.
