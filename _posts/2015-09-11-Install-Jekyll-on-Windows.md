@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll 윈도우에 설치해서 사용하기"
 date:   2015-09-11 10:45:15
 author: 김광명
+author_img: kmkim
 ---
 안녕하세요 오늘은 Jekyll(제킬 이하 제킬)을 윈도우에 설치해서 사용해보 도록 하겠습니다.
 

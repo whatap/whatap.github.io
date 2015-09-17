@@ -3,6 +3,7 @@ layout: post
 title:  "리눅스 명령어를 이용한 시스템 모니터링 하기"
 date:   2015-09-03 17:10:00
 author: 김지혜
+author_img: jhkim.png
 ---
 
 시스템 성능 측정을 위한 항목에는 CPU, Memory, Disk, Traffic 등이 있습니다.  
