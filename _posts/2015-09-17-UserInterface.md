@@ -3,6 +3,7 @@ layout: post
 title:  "Dashboard UI Design"
 date:   2015-09-17 1>7:10:00
 author: 이수현
+profile: shlee.png
 ---
 
 안녕하세요! 와탭의 UI 디자이너입니다. 그간 User Interface 디자인을 하면서 갖고있던 팁을 소개하고자 합니다.
