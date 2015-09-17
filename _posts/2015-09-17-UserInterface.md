@@ -35,14 +35,14 @@ profile: shlee.png
 
 정보를 시각화하기위해서는 적절한 차트를 사용하는게 중요합니다.
 
-![alt text](/assets/images/shlee/01/002.png "002") <center>bSource:www.ubiq.co</center>b
+![alt text](/assets/images/shlee/01/002.png "002") <center>Source:www.ubiq.co</center>
 
 
 
 **3.** 대시보드는 많은 정보를 시각화 하고, 포장하여 사용자에게 주요정보를 강조하고, 정보의 관계들을 표현해야 합니다.
 그러기 위해서는 색상을 통해 사용할 수있는데 사용자는 색상을 통하여 쉽게 정보를 스마트하게 알수 있습니다.
 
-![alt text](/assets/images/shlee/01/003.png "003") <center>bSource:www.ubiq.co</center>b
+![alt text](/assets/images/shlee/01/003.png "003") <center>Source:www.ubiq.co</center>
 
 그림과 같이 그래프로 3개로 그룹화가 된것이 있습니다.
 맨위에는 전체 판매통계 / 중간에는 제품 판매 통계 / 아래는 지역 판매 통계입니다.
