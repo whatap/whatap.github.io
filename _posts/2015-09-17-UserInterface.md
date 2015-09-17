@@ -35,14 +35,14 @@ profile: shlee.png
 
 정보를 시각화하기위해서는 적절한 차트를 사용하는게 중요합니다.
 
-![alt text](/assets/images/shlee/01/002.png "002") Source:www.ubiq.co
+![alt text](/assets/images/shlee/01/002.png "002") <center>bSource:www.ubiq.co</center>b
 
 
 
 **3.** 대시보드는 많은 정보를 시각화 하고, 포장하여 사용자에게 주요정보를 강조하고, 정보의 관계들을 표현해야 합니다.
 그러기 위해서는 색상을 통해 사용할 수있는데 사용자는 색상을 통하여 쉽게 정보를 스마트하게 알수 있습니다.
 
-![alt text](/assets/images/shlee/01/003.png "003")Source:www.ubiq.co
+![alt text](/assets/images/shlee/01/003.png "003") <center>bSource:www.ubiq.co</center>b
 
 그림과 같이 그래프로 3개로 그룹화가 된것이 있습니다.
 맨위에는 전체 판매통계 / 중간에는 제품 판매 통계 / 아래는 지역 판매 통계입니다.
@@ -97,7 +97,7 @@ X축 값은 공유하지만, Y축 값은 각기 다른 데이터를 통해 나�
 
 **6-6. Doughnut charts**는 원형 차트와 비슷합니다. 단일 카테고리 있는 값을 비교할때 사용합니다. 각 카테고리의 값을 퍼센트로 보여주게 됩니다.
 
-![alt text](/assets/images/shlee/01/010.png "010") by Goran Milovanovic
+![alt text](/assets/images/shlee/01/010.png "010") <center>by Goran Milovanovic</center>
 
 
 
@@ -109,7 +109,7 @@ X축 값은 공유하지만, Y축 값은 각기 다른 데이터를 통해 나�
 
 **6-8. Gauge charts**는 목표를 향해 진행상황을 보여주는 차트입니다. 핵심성과 지표처럼 백분위 측정으로 나타내며, 단일 측정의 상태를 말합니다. 빠르게 이해할 수 있는 정보를 표시합니다. 
 
-![alt text](/assets/images/shlee/01/012.png "012") by Justin Roberts
+![alt text](/assets/images/shlee/01/012.png "012") <center>by Justin Roberts</center>
 
 
 
@@ -132,14 +132,14 @@ X축 값은 공유하지만, Y축 값은 각기 다른 데이터를 통해 나�
 
 **6-11. Scatter charts**는 여러개의 데이터 계열에 있는 숫자 값 사이의 관계를 표시하며, 2개의 데이터 관계를 나타내는 차트입니다. 일련의 데이터에 있는 값 사이의 연관성을 보여주는 차트라고 할수 있습니다.
 
-![alt text](/assets/images/shlee/01/015.png "015") by Ricardo Salazar
+![alt text](/assets/images/shlee/01/015.png "015") <center>by Ricardo Salazar</center>
 
 
 
 **6-12. bubble charts**는 거품의 크기로 데이터 값을 표현하는 차트입니다. 데이터의 비율 또는 양을 표시하여 비교할 수 있습니다.
 
-![alt text](/assets/images/shlee/01/016.png "016") by Gavin
-![alt text](/assets/images/shlee/01/016-1.png "016-1") by Lane Kinkade
+![alt text](/assets/images/shlee/01/016.png "016") <center>by Gavin</center>
+![alt text](/assets/images/shlee/01/016-1.png "016-1") <center>by Lane Kinkade</center>
 
 
 
