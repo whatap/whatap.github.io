@@ -99,7 +99,7 @@ service awslogs start
 ##### https://console.aws.amazon.com/cloudwatch/home
 Logs -> 목록에서 4번 /etc/awslogs/awslogs.conf 에서 입력한 로그 그룹 이름을 클릭 -> 서버 이름 클릭 -> 수집된 로그 확인
 
-![Cloud Watch Log](/assets/images/2015-09-10-AWS-CloudWatch-LogViewer.PNG)
+![Cloud Watch Log](/assets/images/hsnam/01/2015-09-10-AWS-CloudWatch-LogViewer.PNG)
 
 #### 시간당 접속 카운트 Metric 입력
 Logs -> 로그 그룹 이름 앞으 체크박스 선택 -> Create Metric Filter -> Filter Pattern 을 비워두고 Assign Metric -> 아래와 같이 폼 입력 -> Create Filter
@@ -118,12 +118,12 @@ metric Value : $size
 #### 시간당 접속수 확인
 Logs -> 2 filter -> LogMetrics -> EventCount 선택 -> 챠트확인
 
-![Cloud Watch Event Count](/assets/images/2015-09-10-AWS-CloudWatch-EventCount.PNG)
+![Cloud Watch Event Count](/assets/images/hsnam/01/2015-09-10-AWS-CloudWatch-EventCount.PNG)
 
 #### 시간당 다운로드 트래픽 확인
 Logs -> 2 filter -> LogMetrics -> BytesTransferred 선택 -> 챠트확인
 
-![Cloud Watch Bytes Transferred](/assets/images/2015-09-10-AWS-CloudWatch-BytesTransferred.PNG)
+![Cloud Watch Bytes Transferred](/assets/images/hsnam/01/2015-09-10-AWS-CloudWatch-BytesTransferred.PNG)
 
 ### 마치면서 
 이렇게 하면 전문 툴을 도입하지 않고 간단하게 모니터링을 할 수 있습니다.
