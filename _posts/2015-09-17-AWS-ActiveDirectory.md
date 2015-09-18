@@ -40,7 +40,9 @@ Directories -> 위에서 생성한 Directory ID를 클릭
 ### 3. IAM Role 설정
 #### AWS IAM 서비스에 접속하여 Role을 생성합니다.
 #####https://console.aws.amazon.com/iam/home
-Roles-> Create New Role -> Set Role Name -> 리스트에서 Amazon EC2 Role for Simple Systems Manager 선택 ->AmazonEC2RoleforSSM 앞 체크박스 체크 -> Create Role
+###### 1) Roles-> Create New Role -> Set Role Name -> Next 
+###### 2) 리스트에서 Amazon EC2 Role for Simple Systems Manager 선택 
+###### 3) AmazonEC2RoleforSSM 앞 체크박스 체크 -> Create Role
 Amazon EC2 Role for Simple Systems Manager Role은 VM 생성시에 Active Directory의 설정을 확인하여 자동으로 VM을 도메인에 JOIN 합니다.
 도메인 JOIN 을 별도로 설정할 필요가 없기 때문에 매우 편리합니다. 생성한 Role에 아래와 같은 policy가 붙어있는것을 확인할 수 있습니다.
 <pre>
@@ -72,15 +74,14 @@ Security group name : {이름}
 Description : {설명}
 VPC : {VPC 선택}
 
-Inbound : 
-# VPC 내부에서 EC2 인스턴스들이 상호 통신가능하도록 VPC Private IP들에 대해 TCP/UDP 를 추가합니다.
+Inbound : VPC 내부에서 EC2 인스턴스들이 상호 통신가능하도록 VPC Private IP들에 대해 TCP/UDP 를 추가합니다.
 RDP를 포함하는 사용하는 적절한 서비스 엔드포인트를 추가합니다.
 </pre>
 
 #### VM을 생성합니다.
-##### Instances -> Launch Instance -> Microsoft Windows Server 2012 R2 Base 선택 
-##### 원하는 VM Spec을 선택 -> Next
-##### 아래와 같이 Form을 입력합니다. -> Next
+###### 1) Instances -> Launch Instance -> Microsoft Windows Server 2012 R2 Base 선택 
+###### 2) 원하는 VM Spec을 선택 -> Next
+###### 3) 아래와 같이 Form을 입력합니다. -> Next
 <pre>
 Number of instances : {}한꺼번에 생성할 VM 숫자(기본상태 최대20개)}
 Purchasing option : {스폿 인스턴스 사용여부}
@@ -94,17 +95,17 @@ Enable termination protection : {삭제 보호 사용 여부}
 Enable CloudWatch detailed monitoring : {추가 모니터링 여부 선택}
 Tenancy : {전용 호스트 사용여부 선택}
 </pre>
-##### 원하는 스토리지 Spec 을 선택 합니다 -> Next
-##### Tag설정을 합니다. -> Next
-##### 4번의 앞에서 생성한 Security Group 을 선택합니다. -> Review and Launch
-##### 기존 Key를 선택하거나 Key를 새로 생성 합니다. Active Directory Join 상태에서는 1번에서 입력한 Adminitorator password를 사용하기 때문에 양쪽다 차이는 없습니다.
+###### 4) 원하는 스토리지 Spec 을 선택 합니다 -> Next
+###### 5) Tag설정을 합니다. -> Next
+###### 6) 4번의 앞에서 생성한 Security Group 을 선택합니다. -> Review and Launch
+###### 7) 기존 Key를 선택하거나 Key를 새로 생성 합니다. Active Directory Join 상태에서는 1번에서 입력한 Adminitorator password를 사용하기 때문에 양쪽다 차이는 없습니다.
 
 #### 도메인 조인 확인
-##### 목록에서 EC2 Instance State가 running상태로 바뀌면 원하는 instance 를 체크한후 Connect 클릭 -> Download Remote Desktop File -> 1번에서 입력한 Adminitorator password 를 입력한
-##### Control Panel\System and Security\System 에서 Domain JOIN상태를 확인합니다.
-![Domain Join](/assets/images/hsnam/01/2015-09-17-AWS-ActiveDirectory-VmDomainJoin.PNG)
-##### Server Manager -> All Servers에서 생성한 모든 서버가 보이는것을 확인 할 수 있습니다.
-![Domain Join Servers](/assets/images/hsnam/01/2015-09-17-AWS-ActiveDirectory-AllServers.PNG)
+###### 1) 목록에서 EC2 Instance State가 running상태로 바뀌면 원하는 instance 를 체크한후 Connect 클릭 -> Download Remote Desktop File -> 1번에서 입력한 Adminitorator password 를 입력
+###### 2) Control Panel\System and Security\System 에서 Domain JOIN상태를 확인합니다.
+![Domain Join](/assets/images/hsnam/01/2015-09-17-AWS-ActiveDirectory-VmDomainJoin.png)
+###### 3) Server Manager -> All Servers에서 생성한 모든 서버가 보이는것을 확인 할 수 있습니다.
+![Domain Join Servers](/assets/images/hsnam/01/2015-09-17-AWS-ActiveDirectory-AllServers.png)
 
 ### 마치면서 
 AWS에서 자동화된 Directory 설정 기능을 제공하면서 관련 지식이 없어도 15분 이내 Domain join된 VM들을 대량으로 만들 수 있었습니다. 직접 하나 하나 설정하던 것과 비교하면 엄청난 혁신임은 틀림 없습니다.
