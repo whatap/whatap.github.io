@@ -64,7 +64,7 @@ post_class: post-template
             <!-- If we want to display author's name and bio -->
             {% if page.author %}
                 <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/{{ page.profile }})">
                     <span class="hidden">{{page.author}}'s Picture</span></a>
                 </figure>
                 <section class="author">
