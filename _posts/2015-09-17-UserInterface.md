@@ -76,7 +76,7 @@ profile: shlee.png
 
 ![alt text](/assets/images/shlee/01/006.png "006")![alt text](/assets/images/shlee/01/006-1.png "006-1")
 
- **6-3. Basic (Layered) Area chart**는 라인형 차트를 기반으로 합니다. 축과 라인 사이의 면저이 부피를 나타내는 색상으로 채워지는 차트입니다. 
+ **6-3. Basic (Layered) Area chart**는 라인형 차트를 기반으로 합니다. 축과 라인 사이의 면적이 부피를 나타내는 색상으로 채워지는 차트입니다. 
 이 차트는 시간에 따라 변화의 크기를 강조하고 합계 정보를 확인하는데 사용할 수 있습니다. 예를 들어 시간에 따른 이익을 볼때 총이익을 강조할때 사용할 수 있습니다.
 
 ![alt text](/assets/images/shlee/01/007.png "007-1")
