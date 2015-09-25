@@ -28,6 +28,8 @@ profile: dilee.png
 윈도우는 메모리 사용을 추적할 수 있는 여러 가지 도구들을 제공합니다. 이런 도구들은 메모리를 사용하는 방법과 가상 메모리를 너무 많이 사용하여 병목 현상이 일어나는지 여부를 판단할 때 도움이 됩니다. 
 메모리 사용을 추적하기 위해 이용할 수 있는 가장 일반적인 도구에는 세가지가 있습니다. 바로 작업 관리자 (Task Manager)와 리소스 모니터(Resource Monitor) 그리고 성능 모니터(Performance Monitor) 입니다. 
 
+![작업관리자](/assets/images/dilee/2015-09-24/windows_memory_01.png)
+
 작업 관리자에서 메모리 사용을 모니터링 하려면 <ctrl + Alt + del>을 누른 다음 [작업관리자(K)]를 클릭합니다. [작업관리자] 대화 상자가 표시되면 [성능(Performance)] 탭을 클릭합니다.
 
 ![작업관리자](/assets/images/dilee/2015-09-24/windows_memory_02.png)
