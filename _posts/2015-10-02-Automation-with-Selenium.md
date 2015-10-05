@@ -21,7 +21,8 @@ profile: kmkim.png
  
 물론 여기에서 말하는 테스트 자동화는 UI tier, Middle tier, Unit tier 모두를 권장합니다. 
 
-테스트 자동화 소프트웨어 팀의 테스트 프로세스의 장기 효율을 개선하기위한 특정한 이점을 갖는다. 테스트 자동화를 지원합니다 :
+테스트 자동화는 소프트웨어 팀의 테스트 프로세스의 장기 효율을 개선하기 위한 특정한 이점을 갖습니다.
+
 지금 제가 말하고 자 하는 것은 개발 단에서 수행하는 Middle tier(FitNesse, Robot Framework, Cucumber), Unit tier(Junit, Nunit, 등의  xUnit family)가 아닌 Ui Tier 단에서 수행되는 자동화 테스트를 말하고자 합니다.
 
 전통적으로 UI Tier 에서 자동화 하면 Mercury/HP의 상용툴인(Quick Test Professional or QTP) 가 리드 해왔습니다.
