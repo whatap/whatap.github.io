@@ -144,7 +144,7 @@ Selenium Grid 는 WebDriver 를 이용해 여러 브라우저 또는 운영 체�
 테스트 케이스는 아래와 같습니다.
 
 1. Firefox 실행
-2. Whatap.io 홈페이지접솓
+2. Whatap.io 홈페이지 접속
 3. 무료 회원가입 버튼 클릭
 4. 회사이름, 이메일번호, 비밀번호, 비밀번호 확인 Text Field 입력
 5. 이용약관동의, 개인정보보호 정책 동의
@@ -171,19 +171,25 @@ Selenium Grid 는 WebDriver 를 이용해 여러 브라우저 또는 운영 체�
 아래 버튼을 누르면 레코딩이 중지됩니다.
 ![selenium-ide-write-testscript-03.jpg](/assets/images/kmkim/2015-10-02/selenium-ide-write-testscript-03.jpg)
 
-동일한 이메일로는 테스트 생성이 어려우니 회원 탈퇴를 한후에 다시 테스트를 수행해보겠습니다.
+클릭만으로 모든 테스트가 만들어 졌습니다. 놀랍지 않나요?
 
-회원탈퇴는 나의 설정> 사용자 > 계쩡탈퇴 에 있습니다.
-탈퇴 사유를 입력후 계정탈퇴를 하면 정상적으로 탈퇴가 됩니다.
+### 테스트 수행 하기
+이제 테스트 를 수행해 보겠습니다.
 
-탈퇴가 완료된후 Selenium IDE 에서 작성한 테스트 케이스를 수행해 보겠습니다.
+동일한 이메일로는 테스트 생성이 어려 우니 회원 탈퇴를 한후에 다시 테스트를 수행해보겠습니다.
+
+회원탈퇴는 나의 설정> 사용자 > 계정탈퇴 에 있습니다.
+탈퇴 사유를 입력후 계정탈퇴를 하면 정상적으로 탈퇴가 됩니다. 
+
+그러면 Selenium IDE 에서 작성한 테스트 케이스를 수행해 보겠습니다.
 수행은 아래 의 녹색 Play 버튼을 누르면 됩니다.
 ![selenium-ide-write-testscript-04.jpg](/assets/images/kmkim/2015-10-02/selenium-ide-write-testscript-04.jpg)
 
 정상적으로 테스트가 완료 되면 모든 라인이 녹색으로 변경된것을 확인 하실수 있습니다. 
 ![selenium-ide-write-testscript-05.jpg](/assets/images/kmkim/2015-10-02/selenium-ide-write-testscript-05.jpg)
 
-간단히 사용해보니 쉽지 않나요?
+간단히 테스트가 완료 되었습니다. 너무 쉽지 않나요?
+
 
 지금까지 Selenium 이 무엇인가와 Selenium IDE 를 한번 사용해 보았습니다.
 
