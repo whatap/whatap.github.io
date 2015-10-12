@@ -20,7 +20,7 @@ profile: chcho.png
 이러한 와탭의 핵심 기능들은 수집된 데이터 보존 기간 제한을 제외하고 사용에 제약 없이 모두 무료로 제공되고 있습니다. 여기 와탭 이외에 무료로 서버를 모니터링 할 수 있는 다양한 오픈 소스 모니터링 툴 중에 세계적으로 인정받는 몇 가지를 간단히 소개합니다.<br>
 <br>
 <br>
-<span style="font-size:24px; font-weight:bold;">Nagios</span><br>
+<span style="font-size:30px; font-weight:bold;">Nagios</span><br>
 [https://www.nagios.com](https://www.nagios.com)
 
 ![alt text](/assets/images/chcho/01/2_nagios.png "2_nagios")
@@ -52,7 +52,7 @@ Nagios 개발자들은 IT 인프라스트럭처 모니터링의 업계 표준이
 - 모든 경고 알림이 기본적으로 설정되어 있어 적절히 설정하지 않으면 알림 스팸을 받을 수 있음<br>
 <br>
 <br>
-**Cactis**<br>
+<span style="font-size:30px; font-weight:bold;">Cacti</span><br>
 [http://www.cacti.net] (http://www.cacti.net)
 
 ![alt text](/assets/images/chcho/01/3_Cacti.png "3_Cacti")
@@ -86,7 +86,7 @@ Cactis는 RRD에 특화된 정교한 프론트 엔드 툴입니다. 대부분의
 - 디테일한 그래프 데이터를 장기간 보관할 수 없음<br>
 <br>
 <br>
-**Zenoss**<br>
+<span style="font-size:30px; font-weight:bold;">Zenoss</span><br>
 [http://www.zenoss.com/] (http://www.zenoss.com/)
 
 ![alt text](/assets/images/chcho/01/4_zenoss.gif "4_zenoss")
@@ -113,7 +113,7 @@ Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및
 - 제한적인 오픈 소스 버전이며, 풀 버전을 이용하려면 제품 구매가 필요함<br>
 <br>
 <br>
-**Zabbix**<br>
+<span style="font-size:30px; font-weight:bold;">Zabixx</span><br>
 [http://www.zabbix.com](http://www.zabbix.com)
 
 ![alt text](/assets/images/chcho/01/5_zabbix.png "5_zabbix")
@@ -153,6 +153,5 @@ Zabbix는 GNU 일반 공중 사용 라이선스 버전2의 조건에 따라 배�
 - 디버깅하기 어려움<br>
 <br>
 <br>
-**결론**<br>
-<br>
+<span style="font-size:30px; font-weight:bold;">결론</span><br>
 모니터링 없이 서버를 운용하는 것은 마치 '계기판 없는 자동차를 운행하는 것'과 같습니다. 사용자의 서버 운용 환경에 맞춰 와탭을 비롯한 다양한 모니터링 툴을 이용하여 보다 편리한 서버 관리 환경을 구축할 수 있었으면 하는 바람입니다.
