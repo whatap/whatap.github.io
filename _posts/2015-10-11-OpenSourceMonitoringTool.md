@@ -113,7 +113,7 @@ Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및
 
 
   
-## Zabixx
+## Zabbix
 [http://www.zabbix.com](http://www.zabbix.com)
 
 ![alt text](/assets/images/chcho/01/5_zabbix.png "5_zabbix")
