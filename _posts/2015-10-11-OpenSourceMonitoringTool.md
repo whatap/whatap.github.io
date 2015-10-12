@@ -9,7 +9,7 @@ profile: chcho.png
 서버 관리자들이 모니터링 없이 서버를 운용한다는 것은 있을 수 없는 일입니다. 서버의 중요 지표를 실시간으로 수집해 관리자가 즉각적으로 인지하도록 표시해 주는 것은 물론, 축적된 지표 데이터를 토대로 향후 발생 할 수 있는 문제를 미연에 방지할 수 있도록 도와주는 것이 모니터링이며, 이는 와탭이 추구하는 궁극적인 목표입니다.
 
 ![alt text](/assets/images/chcho/01/1_whatap.png "1_whatap")
-[WhaTap]
+<p align="center"> [WhaTap] </p>
 
 	*와탭이 수집하는 서버의 중요 지표
 	서버의 동작 상태
@@ -25,7 +25,7 @@ profile: chcho.png
 [https://www.nagios.com](https://www.nagios.com)
 
 ![alt text](/assets/images/chcho/01/2_nagios.png "2_nagios")
-[Nagios]
+<p align="center"> [Nagios] </p>
 
 Nagios는 오픈 소스 컴퓨터 소프트웨어 어플리케이션으로, 시스템, 네트워크 및 인프라스트럭처를 모니터링 합니다. Nagios는 서버, 스위치, 어플리케이션과 서비스에 대한 모니터링과 알림 서비스를 제공하여 각 항목의 상태에 문제가 있음을 알림으로써 그 후 발생할 수 있는 문제를 해결합니다.
 Nagios는 원래 리눅스에서 실행되도록 설계 되었지만 유닉스 기반의 변종 운영체제에서도 잘 동작합니다. 
@@ -72,7 +72,7 @@ Nagios 개발자들은 IT 인프라스트럭처 모니터링의 업계 표준이
 [http://www.cacti.net] (http://www.cacti.net)
 
 ![alt text](/assets/images/chcho/01/3_Cacti.png "3_Cacti")
-[Cactis]
+<p align="center"> [Cactis] </p>
 
 Cactis는 업계 표준 오픈 소스 데이터 로깅 도구인 RRDtool에 대한 프론트 엔드용 응용 프로그램으로 설계된, 오픈 소스 웹 기반 네트워크 모니터링 및 그래프 도구입니다.
 Cactis는 사용자가 소정의 간격으로 서비스를 폴링하고 그 결과 데이터를 그래프로 표시 할 수 있습니다. 일반적으로 CPU 부하 및 네트워크의 대역폭 같은 수치 데이터를 그래프로 변환합니다.
@@ -120,7 +120,7 @@ Cactis는 RRD에 특화된 정교한 프론트 엔드 툴입니다. 대부분의
 [http://www.zenoss.com/] (http://www.zenoss.com/)
 
 ![alt text](/assets/images/chcho/01/4_zenoss.gif "4_zenoss")
-[Zenoss]
+<p align="center"> [Zenoss] </p>
 
 Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및 네트워크 관리용 오픈 소스 플랫폼입니다. GNU 일반 공중 사용 허가서 (GPL) 버전 2의 조건에 따라 배포되고 있으며, Zenoss 코어는 시스템 관리자가 가용성, 목록/구성, 성능 및 이벤트를 모니터링 할 수 있는 웹 인터페이스를 제공합니다.
 
@@ -161,7 +161,7 @@ Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및
 [http://www.zabbix.com](http://www.zabbix.com)
 
 ![alt text](/assets/images/chcho/01/5_zabbix.png "5_zabbix")
-[Zabbix]
+<p align="center"> [Zabbix] </p>
 
 Zabbix는 Alexei Vladishev에 의해 만들어진 네트워크 및 애플리케이션에 대한 엔터프라이즈 형 오픈 소스 모니터링 솔루션으로 다양한 네트워크 서비스, 서버, 네트워크 하드웨어의 상태를 감시하고 추적 할 수 있도록 설계되었습니다.
 Zabbix는 데이터를 저장하기 위해 MySQL, PostgreSQL, SQLite, Oracle, IBM DB2를 사용하며, 백 엔드는 C로 작성되었고, 웹 프론트 엔드는 PHP로 작성되었습니다.
