@@ -17,10 +17,10 @@ profile: chcho.png
     - 동작 중인 Process의 서버 자원 사용량
 	- 파일 및 이벤트 로그의 이상 징후
 	
-이러한 와탭의 핵심 기능들은 수집된 데이터 보존 기간 제한을 제외하고 사용에 제약 없이 모두 무료로 제공되고 있습니다. 여기 와탭 이외에 무료로 서버를 모니터링 할 수 있는 다양한 오픈 소스 모니터링 툴 중에 세계적으로 인정받는 몇 가지를 간단히 소개합니다.
+이러한 와탭의 핵심 기능들은 수집된 데이터 보존 기간 제한을 제외하고 사용에 제약 없이 모두 무료로 제공되고 있습니다. 여기 와탭 이외에 무료로 서버를 모니터링 할 수 있는 다양한 오픈 소스 모니터링 툴 중에 세계적으로 인정받는 몇 가지를 간단히 소개합니다.<br>
 <br>
 <br>
-**Nagios**<br>
+<span style="font-size:24px; font-weight:bold;">Nagios</span><br>
 [https://www.nagios.com](https://www.nagios.com)
 
 ![alt text](/assets/images/chcho/01/2_nagios.png "2_nagios")
