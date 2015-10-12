@@ -17,7 +17,10 @@ profile: chcho.png
     - 동작 중인 Process의 서버 자원 사용량
 	- 파일 및 이벤트 로그의 이상 징후
 	
-이러한 와탭의 핵심 기능들은 수집된 데이터 보존 기간 제한을 제외하고 사용에 제약 없이 모두 무료로 제공되고 있습니다. 여기 와탭 이외에 무료로 서버를 모니터링 할 수 있는 다양한 오픈 소스 모니터링 툴 중에 세계적으로 인정받는 몇 가지를 간단히 소개합니다.<br>
+이러한 와탭의 핵심 기능들은 수집된 데이터 보존 기간 제한을 제외하고 사용에 제약 없이 모두 무료로 제공되고 있습니다.<br>
+<br>
+여기 와탭 이외에 무료로 서버를 모니터링 할 수 있는 다양한 오픈 소스 모니터링 툴 중에 세계적으로 인정받는 몇 가지를 간단히 소개합니다.<br>
+<br>
 <br>
 <br>
 <span style="font-size:30px; font-weight:bold;">Nagios</span><br>
@@ -28,7 +31,7 @@ profile: chcho.png
 
 Nagios는 오픈 소스 컴퓨터 소프트웨어 어플리케이션으로, 시스템, 네트워크 및 인프라스트럭처를 모니터링 합니다. Nagios는 서버, 스위치, 어플리케이션과 서비스에 대한 모니터링과 알림 서비스를 제공하여 각 항목의 상태에 문제가 있음을 알림으로써 그 후 발생할 수 있는 문제를 해결합니다.
 Nagios는 원래 리눅스에서 실행되도록 설계 되었지만 유닉스 기반의 변종 운영체제에서도 잘 동작합니다. 
-Nagios는 Free Software Foundation이 발표한 GNU 일반 공중 사용 라이선스 버전2의 조건에 따라 배포되는 무료 소프트웨어입니다.
+Nagios는 Free Software Foundation이 발표한 GNU 일반 공중 사용 라이선스(GPL) 버전2의 조건에 따라 배포되는 무료 소프트웨어입니다.
 
 Nagios 개발자들은 IT 인프라스트럭처 모니터링의 업계 표준이라고 주장하지만, 지난 몇 년간 많은 발전을 이루지는 못 했습니다. 그들의 주장은 어느 정도 타당하지만 일부에 여전히 해결되지 않는 문제가 존재합니다.
 <br>
@@ -50,6 +53,7 @@ Nagios 개발자들은 IT 인프라스트럭처 모니터링의 업계 표준이
 - 플러그인의 모든 파라미터에 별개의 구성 항목이 필요함<br>
 - 대부분의 체크가 Nagios 서버에서 이뤄지므로 서버에 부하가 걸리는 경우가 있음<br>
 - 모든 경고 알림이 기본적으로 설정되어 있어 적절히 설정하지 않으면 알림 스팸을 받을 수 있음<br>
+<br>
 <br>
 <br>
 <span style="font-size:30px; font-weight:bold;">Cacti</span><br>
@@ -86,13 +90,14 @@ Cactis는 RRD에 특화된 정교한 프론트 엔드 툴입니다. 대부분의
 - 디테일한 그래프 데이터를 장기간 보관할 수 없음<br>
 <br>
 <br>
+<br>
 <span style="font-size:30px; font-weight:bold;">Zenoss</span><br>
 [http://www.zenoss.com/] (http://www.zenoss.com/)
 
 ![alt text](/assets/images/chcho/01/4_zenoss.gif "4_zenoss")
 <p align="center"> [Zenoss] </p>
 
-Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및 네트워크 관리용 오픈 소스 플랫폼입니다. GNU 일반 공중 사용 허가서 (GPL) 버전 2의 조건에 따라 배포되고 있으며, Zenoss 코어는 시스템 관리자가 가용성, 목록/구성, 성능 및 이벤트를 모니터링 할 수 있는 웹 인터페이스를 제공합니다.
+Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및 네트워크 관리용 오픈 소스 플랫폼입니다. GNU 일반 공중 사용 라이선스(GPL) 버전 2의 조건에 따라 배포되고 있으며, Zenoss 코어는 시스템 관리자가 가용성, 목록 / 구성, 성능 및 이벤트를 모니터링 할 수 있는 웹 인터페이스를 제공합니다.
 <br>
 <br>
 **[장점]**<br>
@@ -113,6 +118,7 @@ Zenoss(Zenoss 코어)는 Zope 서버에 기초한 애플리케이션, 서버 및
 - 제한적인 오픈 소스 버전이며, 풀 버전을 이용하려면 제품 구매가 필요함<br>
 <br>
 <br>
+<br>
 <span style="font-size:30px; font-weight:bold;">Zabixx</span><br>
 [http://www.zabbix.com](http://www.zabbix.com)
 
@@ -124,7 +130,7 @@ Zabbix는 데이터를 저장하기 위해 MySQL, PostgreSQL, SQLite, Oracle, IB
 
 Zabbix는 다양한 모니터링 옵션을 제공합니다.
 간단한 검사는 모니터링 할 호스트에 소프트웨어를 설치하지 않고도 SMTP나 HTTP와 같은 표준 서비스의 가용성과 응답성을 검증하여 실행할 수 있습니다.
-Zabbix는 GNU 일반 공중 사용 라이선스 버전2의 조건에 따라 배포되는 무료 소프트웨어입니다.
+Zabbix는 GNU 일반 공중 사용 라이선스(GPL) 버전2의 조건에 따라 배포되는 무료 소프트웨어입니다.
 <br>
 <br>
 **[장점]**<br>
@@ -151,6 +157,7 @@ Zabbix는 GNU 일반 공중 사용 라이선스 버전2의 조건에 따라 배�
 - 같은 종류의 개별 자산을 모니터링 할 때 템플릿이 적용되지 않아 일일이 트리거 설정이 필요해서 번거로움<br>
 - 모니터링 서버에서 사용할 수 있는 자산을 자동으로 검색하지 않음<br>
 - 디버깅하기 어려움<br>
+<br>
 <br>
 <br>
 <span style="font-size:30px; font-weight:bold;">결론</span><br>
