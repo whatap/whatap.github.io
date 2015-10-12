@@ -8,7 +8,7 @@ profile: chcho.png
 
 서버 관리자들이 모니터링 없이 서버를 운용한다는 것은 있을 수 없는 일입니다. 서버의 중요 지표를 실시간으로 수집해 관리자가 즉각적으로 인지하도록 표시해 주는 것은 물론, 축적된 지표 데이터를 토대로 향후 발생 할 수 있는 문제를 미연에 방지할 수 있도록 도와주는 것이 모니터링이며 이는 와탭이 추구하는 궁극적인 목표입니다.
 
-![alt text](/assets/images/chcho/01/1_whatap.png" 1_whatap")
+![alt text](/assets/images/chcho/01/1_whatap.png "1_whatap")
 
 [WhaTap]
 
