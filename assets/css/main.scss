@@ -12,3 +12,18 @@
 @import
 	"syntax"
 ;
+
+.no-cover.main-header {
+  max-height: 250px;
+}
+
+.copyright {
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: #666;
+
+  a {
+    color: #009cdb;
+  }
+}
