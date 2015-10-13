@@ -17,6 +17,10 @@
   max-height: 250px;
 }
 
+.post-head a {
+  border-color: #ccc;
+}
+
 .copyright {
   text-align: center;
   width: 100%;
@@ -25,5 +29,11 @@
 
   a {
     color: #009cdb;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .post-head a {
+    border-color: transparent;
   }
 }
