@@ -68,13 +68,13 @@ Jekyll 은 루비 기반으로 돌아갑니다. 그래서 Ruby 가 설치된 장
 
 본인의 시스템에 맞는 파일을 다운로드 받아 설치 합니다.
 
-![jelky_install_01.jpg](/assets/images/kmkim/02/jelky_install_01.jpg)
+![jelky_install_01.jpg](/assets/images/kmkim/2015-09-11/jelky_install_01.jpg)
 
 저의 컴퓨터는 64비트 Windwos 7 을 사용하고 있으니  64bit 버전을 다운로드 받아 설치 하겠습니다.
 
 설치할때 아래 옵션을 체크해서 설치하면 어느 경로에서든 ruby 를 실행할수 있습니다.
 
-![jelky_install_02.jpg](/assets/images/kmkim/02/jelky_install_02.jpg)
+![jelky_install_02.jpg](/assets/images/kmkim/2015-09-11/jelky_install_02.jpg)
 
 ###Development Kit 설치###
 
@@ -167,15 +167,15 @@ Done installing documentation for rouge after 4 seconds
 
 >C:\Python27;C:\Python27\Scripts;
 
-![jelky_install_03.jpg](/assets/images/kmkim/02/jelky_install_03.jpg)
+![jelky_install_03.jpg](/assets/images/kmkim/2015-09-11/jelky_install_03.jpg)
 
-![jelky_install_04.jpg](/assets/images/kmkim/02/jelky_install_04.jpg)
+![jelky_install_04.jpg](/assets/images/kmkim/2015-09-11/jelky_install_04.jpg)
 
 그러면 Python 과 pip 가 정상적으로 실행되는지 확인 해보겠습니다.
 
 Windows CMD 창을 열어서 확인 해보시면 됩니다.
 
-![jelky_install_05.jpg](/assets/images/kmkim/02/jelky_install_05.jpg)
+![jelky_install_05.jpg](/assets/images/kmkim/2015-09-11/jelky_install_05.jpg)
 
 ### Python & pip 실행 ###
 
@@ -183,11 +183,11 @@ Windows CMD 창을 열어서 확인 해보시면 됩니다.
 
 >python
 
-![jelky_install_06.jpg](/assets/images/kmkim/02/jelky_install_06.jpg)
+![jelky_install_06.jpg](/assets/images/kmkim/2015-09-11/jelky_install_06.jpg)
 
 >pip
 
-![jelky_install_07.jpg](/assets/images/kmkim/02/jelky_install_07.jpg)
+![jelky_install_07.jpg](/assets/images/kmkim/2015-09-11/jelky_install_07.jpg)
 
 ### Pygments 설치 ###
 
@@ -204,7 +204,7 @@ syntax highlighting 을 사용하기 위해서 Pygments를 설치 해보도록 �
 
 **윈도우 계정이 한글로 된경우**
 
-![jelky_install_08.jpg](/assets/images/kmkim/02/jelky_install_08.jpg)
+![jelky_install_08.jpg](/assets/images/kmkim/2015-09-11/jelky_install_08.jpg)
 
 **pip 명령어 실행불가**
 
@@ -217,7 +217,7 @@ syntax highlighting 을 사용하기 위해서 Pygments를 설치 해보도록 �
 
 영어로 계정을 새로 생성하고 컴퓨터 이름을 영어로 설정하면  정상적으로 실행이 가능할것입니다.
 
-![jelky_install_09.jpg](/assets/images/kmkim/02/jelky_install_09.jpg)
+![jelky_install_09.jpg](/assets/images/kmkim/2015-09-11/jelky_install_09.jpg)
 <pre>
 Collecting flake8
 Exception:
@@ -252,14 +252,14 @@ jekyll 을 실행해보면 아래와같은 설명이 나옵니다.
 
 >jekyll
 
-![jelky_install_10.jpg](/assets/images/kmkim/02/jelky_install_10.jpg)
+![jelky_install_10.jpg](/assets/images/kmkim/2015-09-11/jelky_install_10.jpg)
 
 
 설명에 나온데로 jekyll serve 를 실행해보겠습니다.
 
 >jekyll serve
 
-![jelky_install_11.jpg](/assets/images/kmkim/02/jelky_install_11.jpg)
+![jelky_install_11.jpg](/assets/images/kmkim/2015-09-11/jelky_install_11.jpg)
 
 **wdm 설치**
 
@@ -271,7 +271,7 @@ jekyll 을 실행해보면 아래와같은 설명이 나옵니다.
 
 >gem install wdm
 
-![jelky_install_12.jpg](/assets/images/kmkim/02/jelky_install_12.jpg)
+![jelky_install_12.jpg](/assets/images/kmkim/2015-09-11/jelky_install_12.jpg)
 
 
 설치완료후 다시 jekyll serve 를 실행하면 정상적으로 실행이 될것입니다.
@@ -280,7 +280,7 @@ jekyll 을 실행해보면 아래와같은 설명이 나옵니다.
 
 >127.0.0.1:4000
 
-![jelky_install_13.jpg](/assets/images/kmkim/02/jelky_install_13.jpg)
+![jelky_install_13.jpg](/assets/images/kmkim/2015-09-11/jelky_install_13.jpg)
 
 **jekyll serve 오류**
 
@@ -335,13 +335,13 @@ blog 라는 폴더를 만들어서 생성하겠습니다.
 
 >jekyll new C:\Jekyll\blog
 
-![jelky_install_14.jpg](/assets/images/kmkim/02/jelky_install_14.jpg)
+![jelky_install_14.jpg](/assets/images/kmkim/2015-09-11/jelky_install_14.jpg)
 
 뭔가가 만들어진거 같습니다.
 
 >dir/w
 
-![jelky_install_15.jpg](/assets/images/kmkim/02/jelky_install_15.jpg)
+![jelky_install_15.jpg](/assets/images/kmkim/2015-09-11/jelky_install_15.jpg)
 
 **환경설정하기**
 
@@ -357,7 +357,7 @@ blog 라는 폴더를 만들어서 생성하겠습니다.
 
 > highlighter: pygments
 
-![jelky_install_16.jpg](/assets/images/kmkim/02/jelky_install_16.jpg)
+![jelky_install_16.jpg](/assets/images/kmkim/2015-09-11/jelky_install_16.jpg)
 
 <pre>
 # Site settings
@@ -385,13 +385,13 @@ highlighter: pygments
 
 > jekyll serve
 
-![jelky_install_16.jpg](/assets/images/kmkim/02/jelky_install_17.jpg)
+![jelky_install_16.jpg](/assets/images/kmkim/2015-09-11/jelky_install_17.jpg)
 
 설정이 완료 되었으니 사이트에 접속해보겠습니다.
 
 >127.0.0.1:4000
 
-![jelky_install_17.jpg](/assets/images/kmkim/02/jelky_install_18.jpg)
+![jelky_install_17.jpg](/assets/images/kmkim/2015-09-11/jelky_install_18.jpg)
 
 아까와는 다른 화면이 나오네요. 뭔가 복잡한듯 하면서도 간단하죠?
 
