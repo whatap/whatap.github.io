@@ -28,7 +28,7 @@ Test Case를  작성한후에 저장하기 를 통해서 Test Case 를 저장가
 
 저장하는 방법은 파일>Save Test Case 로 저장하면 Html 파일 형식으로 저장됩니다.
 
-이전 강좌에서 사용한  계정생성한 Test Case 의 경우 내용은 아래와 같습니다.
+이전 편에서 사용한  계정생성한 Test Case 의 경우 내용은 아래와 같습니다.
  
 {% highlight Html %}
 <?xml version="1.0" encoding="UTF-8"?>
