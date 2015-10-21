@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://tech.whatap.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-58355070-4'
 permalink: pretty
 
 # Details for the RSS feed generator
