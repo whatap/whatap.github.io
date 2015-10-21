@@ -1,20 +1,23 @@
 ---
-# Let's add a comment to make this file sass-y.
-# Change this file for any custom CSS.
 ---
 
-/* We need to add display:inline in order to align the '>>' of the 'read more' link */
-.post-excerpt p {
-	display:inline;
-}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
+@import "syntax";
+
+
+body {
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
 
 .no-cover.main-header {
   max-height: 250px;
+}
+
+.page-description {
+  font-family: inherit;
 }
 
 .post-head a {
@@ -30,6 +33,11 @@
   a {
     color: #009cdb;
   }
+}
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+  display:inline;
 }
 
 @media only screen and (max-width: 500px) {
