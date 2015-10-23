@@ -28,10 +28,6 @@ cover: false
 
 <main id="content" class="content" role="main">
 
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
     {% for post in paginator.posts %}
 
     <article class="post">
@@ -57,6 +53,18 @@ cover: false
 
     {% endfor %}
 
-    {% include pagination.html %}
+    <nav class="pagination" role="pagination">
+        {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+                <a class="newer-posts" href="/" title="Previous Page">&laquo; Newer Posts</a>
+            {% else %}
+                <a class="newer-posts" href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer Posts</a>
+          {% endif %}
+        {% endif %}
+        <span class="page-number"> Page {{paginator.page}} of {{paginator.total_pages}} </span>
+        {% if paginator.next_page %}
+            <a class="older-posts" href="/page{{ paginator.next_page }}/" title="Next Page">Older Posts &raquo;</a>
+        {% endif %}
+    </nav>
 
 </main>
