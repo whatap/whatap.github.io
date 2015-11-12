@@ -12,10 +12,30 @@ AWS에서도 사용자가 웹 트래픽의 증감에 실시간으로 대처할 �
 
 ### 1. AWS Auto Scale Group - ASG 이란
 ASG란 부하가 증감하는것에 비례하여 EC2 Instance 의 수를 조절하여 부하 증감에 자동 대응하는 시스템입니다. 
-#### CreateAutoScaleGroup 
+#### CreateAutoScaleGroup
+그러면 AutoScale Group 을 생성해보도록 하겠습니다. 
 ##### Create Auto Scaling group버튼을 클릭합니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-01.jpg)
+AWS> AUTO SCALING>Auto Scaling Groups 에서 Create Auto Scaling group 버튼 을 클릭합니다.
+
 ##### Create a new launch configuration을 선택하고 Next Step을 클릭합니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-02.jpg)
 ##### 앞서 작성한 AMI 를 선택합니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-03.jpg)
+##### 인스턴스 타입을 을 선택후 Next 버튼을 누릅니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-04.jpg)
+##### Confituratio Detail 을 설정후 Next 버튼을 누릅니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-05.jpg)
+##### Storage 설정후 Next 버튼을 누릅니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-06.jpg)
+##### Security Group 설정후 Review 버튼을 누릅니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-07.jpg)
+##### 작성한 내용이 맞는지 확인후 정후 Create luanch Configuration 으로 설정합니다.
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-08.jpg)
+##### 
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-09.jpg)
+![AWS-CreateAutoScaling-01](/assets/images/hsnam/2015-11-11/AWS-CreateAutoScaling-10jpg)
+
 
 
 ### 마치면서 
