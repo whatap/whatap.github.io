@@ -78,6 +78,37 @@ AWS> AUTO SCALING>Auto Scaling Groups 에서 Create Auto Scaling group 버튼 �
 
 #### Auto scaling group이 Scale down할때 whatap에 feed back을 주도록 설정하기
 Auto scaling group이 scale down할 때 EC2 Instance가 삭제되면 whatap 콘솔에서는 서버다운으로 표시되고 알림도 발생하게 됩니다. 이 경우에만 서버 다운이 아니라 서버 정지로 표시될 수 있도록 ASG의 Notification 을 자동 설정하는 방법을 적어보겠습니다.
-와탭에서는 자동으로 ASG Notification을 설정할 수 있도록 스크립트 코드를 공개하였습니다. https://raw.githubusercontent.com/whatap/tools/519e5b1c4dccd0efc9b475db2b7c69ee80290bb1/aws/ConfigAutoScaleGroup.ps1
+와탭에서는 자동으로 ASG Notification을 설정할 수 있도록 스크립트 코드를 공개하였습니다. https://raw.githubusercontent.com/whatap/tools/master/aws/ConfigAutoScaleGroup.ps1
 위 주소에 있는 파워쉘 파일을 EC2 Windows 2012 Instance 에 다운로드 받아 실행하면 자동으로 Notification을 설정할 수 있습니다.
+스크립트를 실해하면 EC2FullAccess/SNSFullAccess 권한이 있는 Access/Secret Key를 입력해야 진행하실 수 있습니다.
+<pre>
+IAM User Access/SecretKey is required to setup SNS and ASG notification.
+refer to http://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html for IAM permission configuration
+Your access information will be stored as profile - whatapprofile which will be delete when program ends.
+Please input AccessKey: AKIAJ7YBE5T2XUE4NKTA
+Please input SecretKey: PHYx4Ct/Cp5xtsxSx4dtYQ8CG0zeqmLFyWvZr7ZO
+True
+1) whatap-asg1
+Please select an auto scale group (q to quit)?: 1
+Created Topic: arn:aws:sns:us-west-2:262440944390:whatap-serverdown-push
+True
+pending confirmation
+arn:aws:sns:us-west-2:262440944390:whatap-serverdown-push:6e270616-1bf2-4f1d-a036-52d454c1b2fa
+Configuration Complete. Enter to close windows..:
+</pre>
+위스크립트를 재실행하면 아래와 같이 설정된것을 확인할 수 있습니다.
+<pre>
+IAM User Access/SecretKey is required to setup SNS and ASG notification.
+refer to http://docs.aws.amazon.com/IAM/latest/UserGuide/access_permissions.html for IAM permission configuration
+Your access information will be stored as profile - whatapprofile which will be delete when program ends.
+Please input AccessKey: AKIAJ7YBE5T2XUE4NKTA
+Please input SecretKey: PHYx4Ct/Cp5xtsxSx4dtYQ8CG0zeqmLFyWvZr7ZO
+True
+1) whatap-asg1  => whatap sns feedback already configured
+Please select an auto scale group (q to quit)?: q
+</pre>
 
+
+### 끝마치며
+AWS EC2는 확장성이 높은 서비스를 네트워크/서버 인프라에 대한 대규모 투자 없이 누구나 만들 수 있다고 생각하게 합니다. 그 핵심적인 기능중 하나인 Auto scaling group 과 와탭 Agent의 연동 방법에 대해 적어보았습니다.
+와탭에서는 ASG 에서 Scale out되어 생성되는 인스턴스 내부의 정보를 제공할 수 있는 방법을 제공함으로써 고객이 좀 더 부하 증감 폭이 큰 서비스를 높은 품질을 유지하며 안전하게 운영하게 될 수 있기를 바랍니다. 
