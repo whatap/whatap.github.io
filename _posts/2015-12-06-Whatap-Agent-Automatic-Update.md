@@ -12,7 +12,7 @@ Whatap에 가입하고 윈도우 서버에 Whatap Agent를 설치합니다.
 설치방법은 와탭에 로그인 후 왼쪽 메뉴의 서버추가를 클릭하시면 볼 수 있습니다.
 
 ### 2. 서버에 업데이트 설정 추가
-#### 1) pc 에서 브라우져를 열어 <pre>https://raw.githubusercontent.com/whatap/tools/72e1a0c76b7866f7b0c123ac120f8340cf553132/install/whatap_agent_update.vbs</pre> 에 접속하여 다른 이름으로 저장하기를 이용하여 파일을 <pre>whatapAgentUpdate.vbs</pre> 로 저장합니다.
+#### 1) pc 에서 브라우져를 열어 <pre>https://github.com/whatap/tools/blob/master/install/whatap_agent_update.vbs</pre> 에 접속하여 파일을 <pre>whatapAgentUpdate.vbs</pre> 로 저장합니다.
 #### 2) 서버의 c:\program files\whatap 폴더에 위에서 다운로드 받은 파일을 복사합니다.
 #### 3) 서버에서 명령 프로프트 창을 엽니다.
 #### 4) 아래와 같이 입력하면 매일 오전 9시에 와탭 Agent의 버젼을 체크하고 신버젼 발견시 다운로드 합니다. 관리자패스워드란에는 서버의 실재 패스워드를 입력합니다.
