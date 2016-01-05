@@ -23,7 +23,7 @@ Amazon Linux VM을 생성한 경우 CentOS/RedHat을 클릭하면 아래와 설�
 VM에 설치한 MySQL대신 원격지의 RDS를 모니터링 하도록 /etc/my.cnf에 설정을 추가하는것을 포함하여 Whatap Agent를 설치합니다.
 <pre>
 sudo rpm -Uvh http://210.122.10.122/centos/5/noarch/whatap-repo-1.0-1.noarch.rpm
-sudo yum -y install whatap-agent
+sudo yum -y install whatap-agent mysql
 sudo echo "[client]" >> /etc/my.cnf
 sudo echo "host=RDS 엔드 포인트" >> /etc/my.cnf
 sudo env PATH=$PATH whatap 라이센스키
